@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    background: linear-gradient(90deg, rgb(93, 4, 89) 0%, rgb(61, 9, 121) 35%, rgb(86, 5, 120) 100%);
+    
+}
+
+header .interface {
+    background-color: rgb(4, 4, 72);
+    
+}
+
+.button-header nav ul {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   list-style-type: none;
+   color: white;
+}
+
+
+.button-header nav ul li a {
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    justify-content: center;
+    display:block;
+    font-size: 25px;
+    margin: 40px;
+}
+
+.button-header nav ul li a:hover {
+    color: aquamarine;
+}
+
+header .lupa button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url(../CSS/img/star.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250vh;
+    
+    
+}
+.logo h1 {
+    text-decoration: none;
+    color: chartreuse;
+    font-size: 50px;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.slidercontent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+
+
+.slidercontent input{
+    display: none;
+}
+
+.nav-manual label{
+    display: none;
+}
+
+.slidercontent .legenda{
+    position: absolute;
+    bottom: 35px;
+    left: 15px;
+    background-color: rgba(0, 0, 0, 0.545);
+    color: #a0e763; 
+    padding: 5px; 
+    border-radius: 15px 0px 0px 0px; 
+    font-size: 11px;
+    border: solid #fff;
+    padding: 1px;
+    font-size: 30px;
+}
+
+
+
+.slide{
+    width: 25%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slide img{
+    width: 100%; 
+    height: 300px;
+    
+}
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 28%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid #0eb7d4;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover{
+    background-color: #FFE600;
+}
+
+.slidercontent .legenda {
+
+    color: #fff;
+}
+
+.img-main {
+    padding: 80px;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.PS5, .marvel{
+    width: 360px;
+    height: 160px;
+}
+
+ul .leg{
+    font-size: 40px;
+    margin: 0px;
+    color: #fff;
+    background-color: rgb(39, 38, 38);
+    border: 2px solid white;
+}
+
+ul .leg1{
+
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(39, 38, 38);
+    border: 2px solid white;
+}
+
+.img-main img {
+    width: 700px;
+    height: 350px;
+    border: 2px solid rgb(20, 208, 228);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(10, 5, 64);
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.footer-conteudo {
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-termos {
+    display: flex;
+    align-items: center;
+}
+.footer-termos ul{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footer-termos ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer-termos ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 5px;
+}
